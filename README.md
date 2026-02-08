@@ -1,7 +1,3 @@
-# Alignment Over Scale: LLM-Based News Recommendation via Reinforcement Fine-Tuning
-
-This repository contains the code for fine-tuning large language models (LLMs) as personalized news recommenders on the [MIND dataset](https://msnews.github.io/). We compare **Supervised Fine-Tuning (SFT)** with **Group Relative Policy Optimization (GRPO)**, a reinforcement-learning approach that aligns model outputs using multiple reward signals — recommendation quality (nDCG), output format validity, and reasoning depth.
-
 The codebase supports three model families out of the box: **Gemma**, **Llama**, and **Qwen**, all fine-tuned efficiently via **LoRA** adapters.
 
 ---
