@@ -23,9 +23,6 @@ hf_cache/
 output/llm_finetuning/
 output/recommender/
 
-# Large data files
-data/mind/processed_recommender/
-
 # Jupyter
 .ipynb_checkpoints/
 
